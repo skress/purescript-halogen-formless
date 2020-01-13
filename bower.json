@@ -19,7 +19,8 @@
     "tests"
   ],
   "dependencies": {
-    "purescript-halogen": "^5.0.0-rc.6",
+    "purescript-halogen": "^5.0.0-rc.7",
+    "purescript-css": "^4.0.0",
     "purescript-variant": "^6.0.0",
     "purescript-heterogeneous": "^0.4.0",
     "purescript-generics-rep": "^6.1.0",

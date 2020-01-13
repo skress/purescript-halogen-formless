@@ -10,6 +10,7 @@ import Example.Basic.Component as Basic
 import Example.Async.Component as Async
 import Example.Nested.Page as Nested
 import Example.ExternalComponents.Page as ExternalComponents
+import Example.BootstrapTypeahead.Page as BootstrapTypeahead
 import Example.App.Home as Home
 import Example.RealWorld.Page as RealWorld
 import Foreign.Object as Object
@@ -25,6 +26,7 @@ stories = Object.fromFoldable
   , Tuple "async" $ proxy Async.component
   , Tuple "nested" $ proxy Nested.component
   , Tuple "real-world" $ proxy RealWorld.component
+  , Tuple "bootstrap-typeahead" $ proxy BootstrapTypeahead.component
   ]
 
 main :: Effect Unit
